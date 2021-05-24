@@ -1,0 +1,6 @@
+train: /home/users/kmgreen/Code/yolov5/train/images
+val: /home/users/kmgreen/Code/yolov5/valid/images
+test: /home/users/kmgreen/Code/yolov5/test/images
+
+nc: 2
+names: ['whale', 'nonwhale']
