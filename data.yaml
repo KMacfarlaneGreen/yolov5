@@ -2,10 +2,11 @@
 #train: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/yolov5s/sat_no_augs/train/images
 #val: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/yolov5s/sat_no_augs/valid/images
 #test: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/yolov5s/sat_no_augs/test/images
-train: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/yolo_boats/train/images
-val: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/yolo_boats/val/images
-test: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/yolo_boats/test/images
+train: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/Publication_data/pub_dataset_final/train/images
+val: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/Publication_data/pub_dataset_final/val/images
+#test: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/Publication_data/pub_dataset_final/test/images
+test: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/Publication_data/pub_dataset_noliebre15/test/images
 #test: /home/users/kmgreen/ai4er_gws/users/kmgreen/data/extended_test/images
 
 nc: 2
-names: ['whale', 'nonwhale']
+names: ['whale', 'boat']

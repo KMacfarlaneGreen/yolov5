@@ -1,3 +1,10 @@
+## Automated detection of gray whales in satellite imagery with yolov5
+
+This repository is a forked version of the original version from Ultralytics. The ReadMe document from the original repository below contains details of the network and how to use it. 
+
+This version of the repository was used for the work undertaken to automate detection of gray whales in VHR satellite imagery. The code used for the preprocessing of this imagery is located in gray_whales/data_processing/preprocessing and some examples are included in gray_whales/notebooks. 
+
+
 <a align="left" href="https://apps.apple.com/app/id1452689527" target="_blank">
 <img width="800" src="https://user-images.githubusercontent.com/26833433/98699617-a1595a00-2377-11eb-8145-fc674eb9b1a7.jpg"></a>
 &nbsp

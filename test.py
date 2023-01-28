@@ -23,7 +23,7 @@ def test(data,
          batch_size=32,
          imgsz=640,
          conf_thres=0.001,
-         iou_thres=0.6,  # for NMS
+         iou_thres=0.6,  # for NMS 0.6
          save_json=False,
          single_cls=False,
          augment=False,
@@ -87,7 +87,7 @@ def test(data,
         if device.type != 'cpu':
             model(torch.zeros(1, 3, imgsz, imgsz).to(device).type_as(next(model.parameters())))  # run once
         task = opt.task if opt.task in ('train', 'val', 'test') else 'val'  # path to train/val/test images
-        dataloader = create_dataloader(data[task], imgsz, batch_size, gs, opt, pad=0.5, rect=True,
+        dataloader = create_dataloader(data[task], imgsz, batch_size, gs, opt, pad=0.5, rect=True,   #change from pad =0.5
                                        prefix=colorstr(f'{task}: '))[0]
 
     seen = 0
